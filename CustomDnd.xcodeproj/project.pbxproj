@@ -10,6 +10,8 @@
 		BEE80EF8206DDBA9007CDCD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80EF7206DDBA9007CDCD0 /* AppDelegate.swift */; };
 		BEE80EFA206DDBA9007CDCD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE80EF9206DDBA9007CDCD0 /* Assets.xcassets */; };
 		BEE80EFD206DDBA9007CDCD0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEE80EFB206DDBA9007CDCD0 /* MainMenu.xib */; };
+		BEE80F06206DE539007CDCD0 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80F05206DE539007CDCD0 /* StatusMenuController.swift */; };
+		BEE80F08206DFD4D007CDCD0 /* dnd-enable.scpt in Resources */ = {isa = PBXBuildFile; fileRef = BEE80F07206DFD4D007CDCD0 /* dnd-enable.scpt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BEE80EFC206DDBA9007CDCD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		BEE80EFE206DDBA9007CDCD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEE80EFF206DDBA9007CDCD0 /* CustomDnd.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CustomDnd.entitlements; sourceTree = "<group>"; };
+		BEE80F05206DE539007CDCD0 /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		BEE80F07206DFD4D007CDCD0 /* dnd-enable.scpt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "dnd-enable.scpt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +55,9 @@
 		BEE80EF6206DDBA9007CDCD0 /* CustomDnd */ = {
 			isa = PBXGroup;
 			children = (
+				BEE80F05206DE539007CDCD0 /* StatusMenuController.swift */,
 				BEE80EF7206DDBA9007CDCD0 /* AppDelegate.swift */,
+				BEE80F07206DFD4D007CDCD0 /* dnd-enable.scpt */,
 				BEE80EF9206DDBA9007CDCD0 /* Assets.xcassets */,
 				BEE80EFB206DDBA9007CDCD0 /* MainMenu.xib */,
 				BEE80EFE206DDBA9007CDCD0 /* Info.plist */,
@@ -93,6 +99,11 @@
 					BEE80EF3206DDBA9007CDCD0 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -120,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEE80EFA206DDBA9007CDCD0 /* Assets.xcassets in Resources */,
+				BEE80F08206DFD4D007CDCD0 /* dnd-enable.scpt in Resources */,
 				BEE80EFD206DDBA9007CDCD0 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE80F06206DE539007CDCD0 /* StatusMenuController.swift in Sources */,
 				BEE80EF8206DDBA9007CDCD0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +272,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = CustomDnd/CustomDnd.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = CustomDnd/Info.plist;
@@ -274,7 +286,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = CustomDnd/CustomDnd.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = CustomDnd/Info.plist;
