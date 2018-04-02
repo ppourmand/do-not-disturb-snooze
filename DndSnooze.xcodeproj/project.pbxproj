@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BEE80EF4206DDBA9007CDCD0 /* CustomDnd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDnd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE80EF4206DDBA9007CDCD0 /* DndSnooze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DndSnooze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE80EF7206DDBA9007CDCD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEE80EF9206DDBA9007CDCD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEE80EFC206DDBA9007CDCD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		BEE80EF5206DDBA9007CDCD0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BEE80EF4206DDBA9007CDCD0 /* CustomDnd.app */,
+				BEE80EF4206DDBA9007CDCD0 /* DndSnooze.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,9 +69,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BEE80EF3206DDBA9007CDCD0 /* CustomDnd */ = {
+		BEE80EF3206DDBA9007CDCD0 /* DndSnooze */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEE80F02206DDBA9007CDCD0 /* Build configuration list for PBXNativeTarget "CustomDnd" */;
+			buildConfigurationList = BEE80F02206DDBA9007CDCD0 /* Build configuration list for PBXNativeTarget "DndSnooze" */;
 			buildPhases = (
 				BEE80EF0206DDBA9007CDCD0 /* Sources */,
 				BEE80EF1206DDBA9007CDCD0 /* Frameworks */,
@@ -81,9 +81,9 @@
 			);
 			dependencies = (
 			);
-			name = CustomDnd;
+			name = DndSnooze;
 			productName = CustomDnd;
-			productReference = BEE80EF4206DDBA9007CDCD0 /* CustomDnd.app */;
+			productReference = BEE80EF4206DDBA9007CDCD0 /* DndSnooze.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BEE80EEF206DDBA9007CDCD0 /* Build configuration list for PBXProject "CustomDnd" */;
+			buildConfigurationList = BEE80EEF206DDBA9007CDCD0 /* Build configuration list for PBXProject "DndSnooze" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BEE80EF3206DDBA9007CDCD0 /* CustomDnd */,
+				BEE80EF3206DDBA9007CDCD0 /* DndSnooze */,
 			);
 		};
 /* End PBXProject section */
@@ -299,7 +299,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BEE80EEF206DDBA9007CDCD0 /* Build configuration list for PBXProject "CustomDnd" */ = {
+		BEE80EEF206DDBA9007CDCD0 /* Build configuration list for PBXProject "DndSnooze" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEE80F00206DDBA9007CDCD0 /* Debug */,
@@ -308,7 +308,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEE80F02206DDBA9007CDCD0 /* Build configuration list for PBXNativeTarget "CustomDnd" */ = {
+		BEE80F02206DDBA9007CDCD0 /* Build configuration list for PBXNativeTarget "DndSnooze" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEE80F03206DDBA9007CDCD0 /* Debug */,
